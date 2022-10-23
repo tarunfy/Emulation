@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#header {
+  clip-path: polygon(0 0, 100% 0, 110% 60%, 0 100%);
+  background-image: url(../public/images/pattern.svg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: auto;
+}

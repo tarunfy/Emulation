@@ -113,7 +113,8 @@ export const data = {
       name: "Mohammad Aadil",
       avatar: "/images/Mohammad.jpeg",
       role: "Member",
-      linkedinUrl: "",
+      linkedinUrl:
+        "https://www.linkedin.com/in/mohammad-aadil-ansari-68026a234",
       githubUrl: "",
     },
     {
@@ -121,7 +122,7 @@ export const data = {
       avatar: "/images/Sachin.jpeg",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sachin-agarwal-7b5387240",
-      githubUrl: "",
+      githubUrl: "https://github.com/Sachin_agarwal1",
     },
     {
       name: "Sunidhi",
