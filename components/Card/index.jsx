@@ -17,13 +17,13 @@ const Card = ({ info }) => {
         fugiat recusandae est quia, velit amet quam odit nemo! Assumend.
       </p>
       <div className="flex items-center space-x-3">
-        <a href={info.githubUrl} target="_blank">
+        <a href={info.githubUrl} target="_blank" rel="noreferrer">
           <IconButton
             aria-label="github"
             icon={<AiOutlineGithub className="!h-6 !w-6" />}
           />
         </a>
-        <a href={info.linkedinUrl} target="_blank">
+        <a href={info.linkedinUrl} target="_blank" rel="noreferrer">
           <IconButton
             variant="solid"
             aria-label="linkedin"
