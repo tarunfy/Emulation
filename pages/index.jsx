@@ -6,7 +6,7 @@ import Team from "../components/Team";
 
 export default function Home() {
   return (
-    <div id="test">
+    <div className="bg-hero-pattern">
       <Head>
         <title>Emulation || Club for programmers of accurate college</title>
         <meta
