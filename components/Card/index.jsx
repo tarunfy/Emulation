@@ -4,7 +4,7 @@ import { Avatar, IconButton } from "@chakra-ui/react";
 
 const Card = ({ info }) => {
   return (
-    <div className="p-4 space-y-5 rounded-lg border bg-gray-800">
+    <div className="p-4 space-y-5 rounded-lg shadow-custom2 bg-gray-800">
       <div className="flex items-center space-x-4">
         <Avatar name={info.name} src={info.avatar} />
         <div>
@@ -12,10 +12,7 @@ const Card = ({ info }) => {
           <p className="text-sm text-gray-300">{info.role}</p>
         </div>
       </div>
-      <p className="text-gray-300 text-sm">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
-        fugiat recusandae est quia, velit amet quam odit nemo! Assumend.
-      </p>
+      <p className="text-gray-300 text-sm">{info.description}</p>
       <div className="flex items-center space-x-3">
         <a href={info.githubUrl} target="_blank" rel="noreferrer">
           <IconButton

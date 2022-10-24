@@ -4,8 +4,8 @@ import Card from "../Card";
 const Team = () => {
   return (
     <div className="max-w-5xl mx-auto">
-      <h1 className="text-white text-center text-5xl tracking-tight font-bold">
-        Meet the team of Emulation
+      <h1 className="text-white text-center text-6xl font-bold tracking-tight">
+        “Meet the team of Emulation”
       </h1>
 
       {/* Core */}

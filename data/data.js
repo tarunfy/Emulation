@@ -3,6 +3,7 @@ export const data = {
     {
       name: "Satyam Shrivastava",
       avatar: "/images/Satyam.jpeg",
+      description: "",
       role: "Club Head",
       linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
       githubUrl: "https://github.com/lieftsatyamShrivastava",
@@ -10,6 +11,7 @@ export const data = {
     {
       name: "Shreyansh Singh",
       avatar: "/images/Shreyansh.jpeg",
+      description: "",
       role: "Club Head || Promotional Lead",
       linkedinUrl: "https://www.linkedin.com/in/shreyansh-kumar-697a96244",
       githubUrl: "https://www.github.com/Shreyansh2407",
@@ -17,6 +19,7 @@ export const data = {
     {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
+      description: "",
       role: "Club Coordinator",
       linkedinUrl: "https://www.linkedin.com/in/anurag-verma-070902249",
       githubUrl: "https://github.com/Anuragvermaaa",
@@ -24,6 +27,7 @@ export const data = {
     {
       name: "Anurag Singh Chauhan",
       avatar: "/images/AnuragS.jpeg",
+      description: "",
       role: "Club Registration Head",
       linkedinUrl: "https://www.linkedin.com/in/anurag-singh-chauhan-0902421b1",
       githubUrl: "https://www.github.com/anuragchauhan766",
@@ -31,6 +35,7 @@ export const data = {
     {
       name: "Nasir Ali",
       avatar: "/images/Nasir.jpeg",
+      description: "",
       role: "Club Development Mentor",
       linkedinUrl: "https://www.linkedin.com/in/nasir-ali-a47283225",
       githubUrl: "https://www.github.com/nasir-buddy",
@@ -38,15 +43,17 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
+      description: "",
       role: "Club Social Media and Teach Lead",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
-      githubUrl: "https://github.com/amanj752",
+      githubUrl: "https://www.github.com/amanj752",
     },
   ],
   web: [
     {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-verma-070902249",
       githubUrl: "https://github.com/Anuragvermaaa",
@@ -54,6 +61,7 @@ export const data = {
     {
       name: "Anurag Singh Chauhan",
       avatar: "/images/AnuragS.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-singh-chauhan-0902421b1",
       githubUrl: "https://www.github.com/anuragchauhan766",
@@ -61,6 +69,7 @@ export const data = {
     {
       name: "Nasir Ali",
       avatar: "/images/Nasir.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/nasir-ali-a47283225",
       githubUrl: "https://www.github.com/nasir-buddy",
@@ -68,13 +77,15 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
-      githubUrl: "",
+      githubUrl: "https://www.github.com/amanj752",
     },
     {
       name: "Shreyansh Singh",
       avatar: "/images/Shreyansh.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/shreyansh",
       githubUrl: "https://github.com/Shreyansh2407",
@@ -82,6 +93,8 @@ export const data = {
     {
       name: "Tarun Sharma",
       avatar: "/images/Tarun.jpeg",
+      description:
+        "MERN Stack Developer - React.Js | Node.Js | Express | MongoDB | Firebase",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/tarunfy",
       githubUrl: "https://github.com/tarunfy",
@@ -89,6 +102,7 @@ export const data = {
     {
       name: "Tushar Sharma",
       avatar: "/images/Tushar.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/tushar-sharma-a56b65225",
       githubUrl: "https://github.com/TusharEngineer",
@@ -96,6 +110,8 @@ export const data = {
     {
       name: "Sumit Kumar",
       avatar: "/images/Sumit.jpeg",
+      description:
+        "Persuing Btech. Interested in Android Development and Web development currently learning DSA.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sumit-kanth-057873228",
       githubUrl: "https://github.com/sumitKanth",
@@ -105,6 +121,7 @@ export const data = {
     {
       name: "Satram Shrivastav",
       avatar: "/images/Satram.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "",
       githubUrl: "",
@@ -112,6 +129,7 @@ export const data = {
     {
       name: "Mohammad Aadil",
       avatar: "/images/Mohammad.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl:
         "https://www.linkedin.com/in/mohammad-aadil-ansari-68026a234",
@@ -120,6 +138,7 @@ export const data = {
     {
       name: "Sachin Agarwal",
       avatar: "/images/Sachin.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sachin-agarwal-7b5387240",
       githubUrl: "https://github.com/Sachin_agarwal1",
@@ -127,6 +146,7 @@ export const data = {
     {
       name: "Sunidhi",
       avatar: "/images/Sunidhi.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sunidhi-rajput-789a42254",
       githubUrl: "",
@@ -136,6 +156,7 @@ export const data = {
     {
       name: "Satyam Shrivastava",
       avatar: "/images/Satyam.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
       githubUrl: "https://github.com/lieftsatyamShrivastava",
@@ -143,13 +164,15 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
-      githubUrl: "https://github.com/amanj752",
+      githubUrl: "https://www.github.com/amanj752",
     },
     {
       name: "Anurag Sinha",
       avatar: "/images/AnuragSinha.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-sinha-b76029221",
       githubUrl: "",
@@ -157,6 +180,7 @@ export const data = {
     {
       name: "Shivam Kumari",
       avatar: "/images/Shivam.jpeg",
+      description: "",
       role: "Member",
       linkedinUrl: "",
       githubUrl: "",
