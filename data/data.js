@@ -128,7 +128,7 @@ export const data = {
       name: "Sunidhi",
       avatar: "/images/Sunidhi.jpeg",
       role: "Member",
-      linkedinUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/sunidhi-rajput-789a42254",
       githubUrl: "",
     },
   ],
@@ -151,7 +151,7 @@ export const data = {
       name: "Anurag Sinha",
       avatar: "/images/AnuragSinha.jpeg",
       role: "Member",
-      linkedinUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/anurag-sinha-b76029221",
       githubUrl: "",
     },
     {
