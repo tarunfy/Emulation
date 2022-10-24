@@ -35,7 +35,8 @@ export const data = {
     {
       name: "Nasir Ali",
       avatar: "/images/Nasir.jpeg",
-      description: "",
+      description:
+        "Persuing Btech. Interested in Android Development and Web development currently learning DSA.",
       role: "Club Development Mentor",
       linkedinUrl: "https://www.linkedin.com/in/nasir-ali-a47283225",
       githubUrl: "https://www.github.com/nasir-buddy",
@@ -69,7 +70,8 @@ export const data = {
     {
       name: "Nasir Ali",
       avatar: "/images/Nasir.jpeg",
-      description: "",
+      description:
+        "Persuing Btech. Interested in Android Development and Web development currently learning DSA.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/nasir-ali-a47283225",
       githubUrl: "https://www.github.com/nasir-buddy",
@@ -110,8 +112,7 @@ export const data = {
     {
       name: "Sumit Kumar",
       avatar: "/images/Sumit.jpeg",
-      description:
-        "Persuing Btech. Interested in Android Development and Web development currently learning DSA.",
+      description: "Currently learning Web Development and DSA.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sumit-kanth-057873228",
       githubUrl: "https://github.com/sumitKanth",

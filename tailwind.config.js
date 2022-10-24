@@ -14,6 +14,15 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/images/pattern.svg')",
       },
+      keyframes: {
+        xy: {
+          "0%, 100%": { backgroundSize: "400% 400%", backgroundPosition: "0" },
+          "50%": { backgroundSize: "200% 200%", backgroundPosition: "100%" },
+        },
+      },
+      animation: {
+        xy: "xy 1s ease-in-out infinite",
+      },
     },
   },
   plugins: [],

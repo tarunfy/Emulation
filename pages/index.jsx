@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Join from "../components/Join";
 import Team from "../components/Team";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Header />
       <About />
       <Team />
+      <Join />
       <Footer />
     </div>
   );
