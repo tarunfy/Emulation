@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#header {
-  clip-path: polygon(0 0, 100% 0, 110% 60%, 0 100%);
-  background-image: url(../public/images/pattern.svg);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: auto;
+body {
+  background-image: url(../public/images/pattern.svg) !important;
+  background-repeat: repeat !important;
+  background-position: bottom !important;
+  background-size: auto !important;
+  background-color: #0b1121 !important;
+  position: relative !important;
+  z-index: 10 !important;
 }

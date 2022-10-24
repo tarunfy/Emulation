@@ -1,9 +1,10 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
-    <div>
+    <div id="test">
       <Head>
         <title>Emulation || Club for programmers of accurate college</title>
         <meta
@@ -12,16 +13,8 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {/* Header Section */}
       <Header />
-      {/* Core Team */}
-
-      {/* Web Dev Team */}
-
-      {/* Android Dev Team */}
-
-      {/* Competitvie Programming Team */}
+      <Team />
     </div>
   );
 }

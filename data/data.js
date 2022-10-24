@@ -40,7 +40,7 @@ export const data = {
       avatar: "/images/Aman.jpeg",
       role: "Club Social Media and Teach Lead",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
-      githubUrl: "",
+      githubUrl: "https://github.com/amanj752",
     },
   ],
   web: [
@@ -134,18 +134,18 @@ export const data = {
   ],
   competitive: [
     {
-      name: "Satyam Shrivastav",
+      name: "Satyam Shrivastava",
       avatar: "/images/Satyam.jpeg",
       role: "Member",
-      linkedinUrl: "",
-      githubUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
+      githubUrl: "https://github.com/lieftsatyamShrivastava",
     },
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
-      githubUrl: "",
+      githubUrl: "https://github.com/amanj752",
     },
     {
       name: "Anurag Sinha",

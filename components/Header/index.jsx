@@ -1,12 +1,9 @@
 const Header = () => {
   return (
-    <div
-      id="header"
-      className="p-32 bg-[#0A2135] h-screen max-w-9xl mx-auto text-center transition-all duration-500  bg-contain bg-no-repeat"
-    >
+    <div className="p-32 mb-16 max-w-9xl mx-auto text-center transition-all duration-500">
       <div className="space-y-8">
         <h1 className="text-8xl max-w-5xl mx-auto tracking-tighter text-white font-black text-center">
-          Technical Club for Programmers of AIMT
+          Technical Club for Programmers of AIMT.
         </h1>
         <p className="text-center max-w-4xl mx-auto text-lg text-slate-400">
           Emulation is being successfully operated by the students of btech
