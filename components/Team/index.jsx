@@ -1,58 +1,69 @@
-import { data } from "../../data/data";
-import Card from "../Card";
+import { useState } from "react";
+import AndroidDevTeam from "./AndroidDevTeam";
+import CoreTeam from "./CoreTeam";
+import WebDevTeam from "./WebDevTeam";
+import CompetitiveTeam from "./CompetitveTeam";
 
 const Team = () => {
+  const [team, setTeam] = useState("core");
   return (
-    <div className="relative after:inset-0 after:z-0  after:bg-center after:bg-no-repeat after:bg-team-bg after:absolute">
-      <div className="relative z-20 max-w-5xl mx-auto ">
+    <div className="relative after:inset-0 after:z-0  after:bg-center after:bg-no-repeat after:bg-team-bg after:absolute py-32">
+      <div className="relative z-20 max-w-5xl mx-auto space-y-10">
         <h1 className="text-white text-center text-6xl font-bold tracking-tight">
           “Meet the team of Emulation”
         </h1>
 
-        {/* Core */}
-        <div className="mt-10 space-y-4">
-          <h1 className="text-white/90 text-3xl font-medium">Core Team</h1>
-          <div className="grid grid-cols-3 gap-4">
-            {data.core.map((member, index) => (
-              <Card key={index} info={member} />
-            ))}
-          </div>
+        <div className="w-full">
+          <ul className="flex items-center justify-between space-x-4 text-white/90 font-normal text-lg">
+            <li
+              className={`${
+                team === "core" &&
+                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
+              }`}
+            >
+              <button onClick={() => setTeam("core")}>Core</button>
+            </li>
+            <li
+              className={`${
+                team === "web" &&
+                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white font-medium px-4 py-2 rounded-md"
+              } `}
+            >
+              <button onClick={() => setTeam("web")}>Web Developement</button>
+            </li>
+            <li
+              className={`${
+                team === "android" &&
+                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 font-medium rounded-md"
+              }`}
+            >
+              <button onClick={() => setTeam("android")}>
+                Android Development
+              </button>
+            </li>
+            <li
+              className={`${
+                team === "competitive" &&
+                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
+              }`}
+            >
+              <button onClick={() => setTeam("competitive")}>
+                Competitive Programming
+              </button>
+            </li>
+          </ul>
         </div>
 
-        {/* Web */}
-        <div className="mt-10 space-y-4">
-          <h1 className="text-white/90 text-3xl font-medium">
-            Web Development Team
-          </h1>
-          <div className="grid grid-cols-3 gap-4">
-            {data.web.map((member, index) => (
-              <Card key={index} info={member} />
-            ))}
-          </div>
-        </div>
-
-        {/* Android */}
-        <div className="mt-10 space-y-4">
-          <h1 className="text-white/90 text-3xl font-medium">
-            Android Development Team
-          </h1>
-          <div className="grid grid-cols-3 gap-4">
-            {data.android.map((member, index) => (
-              <Card key={index} info={member} />
-            ))}
-          </div>
-        </div>
-
-        {/* Competitive */}
-        <div className="mt-10 space-y-4">
-          <h1 className="text-white/90 text-3xl font-medium">
-            Competitive Programming Team
-          </h1>
-          <div className="grid grid-cols-3 gap-4">
-            {data.competitive.map((member, index) => (
-              <Card key={index} info={member} />
-            ))}
-          </div>
+        <div>
+          {team === "core" ? (
+            <CoreTeam />
+          ) : team === "web" ? (
+            <WebDevTeam />
+          ) : team === "android" ? (
+            <AndroidDevTeam />
+          ) : (
+            <CompetitiveTeam />
+          )}
         </div>
       </div>
     </div>

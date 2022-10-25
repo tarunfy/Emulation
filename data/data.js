@@ -138,7 +138,7 @@ export const data = {
     },
     {
       name: "Mohammad Aadil",
-      avatar: "/images/Mohammad.jpeg",
+      avatar: "/images/Adil.jpeg",
       description:
         "Persuing B.Tech. (CSE), Interested in Android development and currently learning Data Structure With C",
       role: "Member",
