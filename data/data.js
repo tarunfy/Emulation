@@ -45,7 +45,8 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
-      description: "",
+      description:
+        "OE @Infosys || Open Source contributor @LibreOffice || Web Explorer",
       role: "Club Social Media and Teach Lead",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
       githubUrl: "https://www.github.com/amanj752",
@@ -81,7 +82,8 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
-      description: "",
+      description:
+        "OE @Infosys || Open Source contributor @LibreOffice || Web Explorer",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
       githubUrl: "https://www.github.com/amanj752",
@@ -141,7 +143,8 @@ export const data = {
     {
       name: "Sachin Agarwal",
       avatar: "/images/Sachin.jpeg",
-      description: "",
+      description:
+        "Currently learning Java and DSA and want to become an Android Developer and I'm also interested in Web Development.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sachin-agarwal-7b5387240",
       githubUrl: "https://github.com/Sachin_agarwal1",
@@ -167,7 +170,8 @@ export const data = {
     {
       name: "Aman Jha",
       avatar: "/images/Aman.jpeg",
-      description: "",
+      description:
+        "OE @Infosys || Open Source contributor @LibreOffice || Web Explorer",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
       githubUrl: "https://www.github.com/amanj752",
