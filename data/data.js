@@ -11,7 +11,7 @@ export const data = {
     {
       name: "Shreyansh Singh",
       avatar: "/images/Shreyansh.jpeg",
-      description: "",
+      description: "Learning Web Development, MERN Stack developer.",
       role: "Club Head || Promotional Lead",
       linkedinUrl: "https://www.linkedin.com/in/shreyansh-kumar-697a96244",
       githubUrl: "https://www.github.com/Shreyansh2407",
@@ -89,7 +89,7 @@ export const data = {
     {
       name: "Shreyansh Singh",
       avatar: "/images/Shreyansh.jpeg",
-      description: "",
+      description: "Learning Web Development, MERN Stack developer.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/shreyansh",
       githubUrl: "https://github.com/Shreyansh2407",

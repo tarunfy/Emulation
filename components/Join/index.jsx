@@ -1,6 +1,6 @@
 const Join = () => {
   return (
-    <div className="from-[#000046] to-[#1CB5E0] animate-xy bg-gradient-to-tr  p-36 max-w-5xl rounded-lg mx-auto my-28 flex flex-col items-center justify-center space-y-8">
+    <div className="from-[#000046] to-[#1CB5E0] animate-xy bg-gradient-to-tr shadow-custom2  p-36 max-w-5xl rounded-lg mx-auto my-28 flex flex-col items-center justify-center space-y-8">
       <h1 className="text-white tracking-tighter text-5xl max-w-3xl text-center font-bold ">
         Want to be a part of the Emulation club?
       </h1>
