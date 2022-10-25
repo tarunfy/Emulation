@@ -3,7 +3,8 @@ export const data = {
     {
       name: "Satyam Shrivastava",
       avatar: "/images/Satyam.jpeg",
-      description: "",
+      description:
+        "Competitive Programmes , Android Developers, Full stack web developers",
       role: "Club Head",
       linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
       githubUrl: "https://github.com/lieftsatyamShrivastava",
@@ -19,7 +20,8 @@ export const data = {
     {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
-      description: "",
+      description:
+        "B.TECH CSE || C, C++ || DSA LEARNING || OPEN SOURCE CONTRIBUTOR",
       role: "Club Coordinator",
       linkedinUrl: "https://www.linkedin.com/in/anurag-verma-070902249",
       githubUrl: "https://github.com/Anuragvermaaa",
@@ -56,7 +58,8 @@ export const data = {
     {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
-      description: "",
+      description:
+        "B.TECH CSE || C, C++ || DSA LEARNING || OPEN SOURCE CONTRIBUTOR",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-verma-070902249",
       githubUrl: "https://github.com/Anuragvermaaa",
@@ -124,21 +127,23 @@ export const data = {
   ],
   android: [
     {
-      name: "Satram Shrivastav",
-      avatar: "/images/Satram.jpeg",
-      description: "",
+      name: "Satyam Shrivastava",
+      avatar: "/images/Satyam.jpeg",
+      description:
+        "Competitive Programmes , Android Developers, Full stack web developers",
       role: "Member",
-      linkedinUrl: "",
-      githubUrl: "",
+      linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
+      githubUrl: "https://github.com/lieftsatyamShrivastava",
     },
     {
       name: "Mohammad Aadil",
       avatar: "/images/Mohammad.jpeg",
-      description: "",
+      description:
+        "Persuing B.Tech. (CSE), Interested in Android development and currently learning Data Structure With C",
       role: "Member",
       linkedinUrl:
         "https://www.linkedin.com/in/mohammad-aadil-ansari-68026a234",
-      githubUrl: "",
+      githubUrl: "https://github.com/ansariaadil2212",
     },
     {
       name: "Sachin Agarwal",
@@ -147,7 +152,7 @@ export const data = {
         "Currently learning Java and DSA and want to become an Android Developer and I'm also interested in Web Development.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sachin-agarwal-7b5387240",
-      githubUrl: "https://github.com/Sachin_agarwal1",
+      githubUrl: "https://www.github.com/Sachin-Agarwal1",
     },
     {
       name: "Sunidhi",
@@ -162,7 +167,8 @@ export const data = {
     {
       name: "Satyam Shrivastava",
       avatar: "/images/Satyam.jpeg",
-      description: "",
+      description:
+        "Competitive Programmes , Android Developers, Full stack web developers",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/satyam-srivastava-coder",
       githubUrl: "https://github.com/lieftsatyamShrivastava",
@@ -179,17 +185,19 @@ export const data = {
     {
       name: "Anurag Sinha",
       avatar: "/images/AnuragSinha.jpeg",
-      description: "",
+      description:
+        "Perusing B.tech || Interested in competitive programming || Currently learning DSA",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-sinha-b76029221",
-      githubUrl: "",
+      githubUrl: "https://www.github.com/Anurag945",
     },
     {
       name: "Shivam Kumari",
       avatar: "/images/Shivam.jpeg",
       description: "",
       role: "Member",
-      linkedinUrl: "",
+      linkedinUrl:
+        "https://www.linkedin.com/in/shivam-singh-shivam-singh-ab1b71233",
       githubUrl: "",
     },
   ],

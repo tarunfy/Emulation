@@ -4,7 +4,7 @@ import Card from "../Card";
 const Team = () => {
   return (
     <div className="relative after:inset-0 after:z-0  after:bg-center after:bg-no-repeat after:bg-team-bg after:absolute">
-      <div className="relative z-20 max-w-5xl mx-auto  ">
+      <div className="relative z-20 max-w-5xl mx-auto ">
         <h1 className="text-white text-center text-6xl font-bold tracking-tight">
           “Meet the team of Emulation”
         </h1>

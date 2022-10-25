@@ -15,6 +15,7 @@ module.exports = {
         "hero-pattern": "url('/images/pattern.svg')",
         "hero-bg": "url('/images/heroBg.png')",
         "team-bg": "url('/images/teamBg.png')",
+        "join-bg": "url('/images/joinBg.jpg')",
       },
       keyframes: {
         xy: {
