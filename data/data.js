@@ -27,7 +27,8 @@ export const data = {
     {
       name: "Anurag Singh Chauhan",
       avatar: "/images/AnuragS.jpeg",
-      description: "",
+      description:
+        "Learning DSA || On the road of full stack web developer || C , C++ , javascript || coder",
       role: "Club Registration Head",
       linkedinUrl: "https://www.linkedin.com/in/anurag-singh-chauhan-0902421b1",
       githubUrl: "https://www.github.com/anuragchauhan766",
@@ -62,7 +63,8 @@ export const data = {
     {
       name: "Anurag Singh Chauhan",
       avatar: "/images/AnuragS.jpeg",
-      description: "",
+      description:
+        "Learning DSA || On the road of full stack web developer || C , C++ , javascript || coder",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/anurag-singh-chauhan-0902421b1",
       githubUrl: "https://www.github.com/anuragchauhan766",

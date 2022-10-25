@@ -13,6 +13,8 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/images/pattern.svg')",
+        "hero-bg": "url('/images/heroBg.png')",
+        "team-bg": "url('/images/teamBg.png')",
       },
       keyframes: {
         xy: {
@@ -21,7 +23,7 @@ module.exports = {
         },
       },
       animation: {
-        xy: "xy 1s ease-in-out infinite",
+        xy: "xy 5s ease infinite",
       },
     },
   },

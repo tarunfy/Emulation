@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="p-32 mb-16 max-w-9xl mx-auto text-center transition-all duration-500">
-      <div className="space-y-8">
+    <div className="p-32 relative after:inset-0 after:z-0 after:bg-cover after:bg-bottom after:bg-no-repeat after:bg-hero-bg after:absolute mb-16 max-w-9xl mx-auto text-center transition-all duration-500">
+      <div className="space-y-8 relative z-20">
         <h1 className="text-8xl max-w-5xl mx-auto tracking-tighter text-white font-black text-center">
           Technical Club for Programmers of AIMT.
         </h1>
