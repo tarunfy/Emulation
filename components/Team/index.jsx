@@ -13,46 +13,44 @@ const Team = () => {
           “Meet the team of Emulation”
         </h1>
 
-        <div className="w-full">
-          <ul className="flex items-center justify-between space-x-4 text-white/90 font-normal text-lg">
-            <li
-              className={`${
-                team === "core" &&
-                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
-              }`}
-            >
-              <button onClick={() => setTeam("core")}>Core</button>
-            </li>
-            <li
-              className={`${
-                team === "web" &&
-                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white font-medium px-4 py-2 rounded-md"
-              } `}
-            >
-              <button onClick={() => setTeam("web")}>Web Developement</button>
-            </li>
-            <li
-              className={`${
-                team === "android" &&
-                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 font-medium rounded-md"
-              }`}
-            >
-              <button onClick={() => setTeam("android")}>
-                Android Development
-              </button>
-            </li>
-            <li
-              className={`${
-                team === "competitive" &&
-                "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
-              }`}
-            >
-              <button onClick={() => setTeam("competitive")}>
-                Competitive Programming
-              </button>
-            </li>
-          </ul>
-        </div>
+        <ul className="flex w-full items-center justify-between space-x-4 text-white/90 font-normal text-lg">
+          <li
+            className={`${
+              team === "core" &&
+              "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
+            }`}
+          >
+            <button onClick={() => setTeam("core")}>Core</button>
+          </li>
+          <li
+            className={`${
+              team === "web" &&
+              "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white font-medium px-4 py-2 rounded-md"
+            } `}
+          >
+            <button onClick={() => setTeam("web")}>Web Developement</button>
+          </li>
+          <li
+            className={`${
+              team === "android" &&
+              "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 font-medium rounded-md"
+            }`}
+          >
+            <button onClick={() => setTeam("android")}>
+              Android Development
+            </button>
+          </li>
+          <li
+            className={`${
+              team === "competitive" &&
+              "bg-gradient-to-r from-[#3b31b0] to-[#5c50e1] text-white px-4 py-2 rounded-md font-medium"
+            }`}
+          >
+            <button onClick={() => setTeam("competitive")}>
+              Competitive Programming
+            </button>
+          </li>
+        </ul>
 
         <div>
           {team === "core" ? (
