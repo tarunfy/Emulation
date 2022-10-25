@@ -7,16 +7,19 @@ const About = () => {
         👨‍💻
       </h1>
 
-      <div className="relative max-w-2xl mx-auto">
+      <div className="relative max-w-3xl mx-auto">
         <div className="absolute blur -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600  rounded-lg mx-auto "></div>
-        <div className="relative p-10 bg-[#0b1121] rounded-lg max-w-fit mx-auto mt-6">
-          <p className="text-center tracking-wide text-lg text-white max-w-2xl mx-auto mt-4">
-            This club is running by the students of the Accurate group of
-            Institutions! We currently working on Web development , Android
-            Development , Competetive Programming.. We are currently learning on
-            cross platform. We looking to collaborate on different hackathon and
-            coding competition. We looking to help others. Creating a coding
-            culture in our college.
+        <div className="relative p-10 bg-[#0b1121] rounded-lg max-w-3xl mx-auto mt-6">
+          <p className="text-center  text-lg text-white max-w-full mx-auto mt-4">
+            Emulation is a coding club from accurate institute of management and
+            technology. The club was formed with an aim to provide a platform
+            for students who are passionate about coding and want to learn more
+            about it and also to participate in different hackathon and coding
+            competitions. The club provides a space for students to explore
+            different programming languages, tools and techniques. It also
+            organises workshops and events where students can showcase their
+            skills and learn from their peers. The club is open to all students
+            who want to learn more about coding and its applications.
           </p>
         </div>
       </div>
