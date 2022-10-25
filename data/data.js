@@ -111,7 +111,8 @@ export const data = {
     {
       name: "Tushar Sharma",
       avatar: "/images/Tushar.jpeg",
-      description: "",
+      description:
+        "Hi, I am Tushar Sharma. I am interested in competitive programming and development.",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/tushar-sharma-a56b65225",
       githubUrl: "https://github.com/TusharEngineer",
@@ -157,10 +158,11 @@ export const data = {
     {
       name: "Sunidhi",
       avatar: "/images/Sunidhi.jpeg",
-      description: "",
+      description:
+        "Perusing B.Tech || Interested in Graphics design || learning DSA",
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/sunidhi-rajput-789a42254",
-      githubUrl: "",
+      githubUrl: "https://www.github.com/Sunidhirajput",
     },
   ],
   competitive: [
@@ -194,7 +196,7 @@ export const data = {
     {
       name: "Shivam Kumari",
       avatar: "/images/Shivam.jpeg",
-      description: "",
+      description: "Interested in web developement current learning DSA",
       role: "Member",
       linkedinUrl:
         "https://www.linkedin.com/in/shivam-singh-shivam-singh-ab1b71233",
