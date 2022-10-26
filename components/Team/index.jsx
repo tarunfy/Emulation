@@ -1,8 +1,5 @@
 import { useState } from "react";
-import AndroidDevTeam from "./AndroidDevTeam";
-import CoreTeam from "./CoreTeam";
-import WebDevTeam from "./WebDevTeam";
-import CompetitiveTeam from "./CompetitveTeam";
+import { AndroidDevTeam, CompetitiveTeam, CoreTeam, WebDevTeam } from "./Teams";
 
 const Team = () => {
   const [team, setTeam] = useState("core");

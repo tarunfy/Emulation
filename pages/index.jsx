@@ -1,9 +1,5 @@
 import Head from "next/head";
-import About from "../components/About";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Join from "../components/Join";
-import Team from "../components/Team";
+import { About, Team, Join, Footer, Header } from "../components";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
-import { data } from "../../data/data";
-import Card from "../Card";
+import { data } from "../../../data/data";
+import Card from "../../Card";
 
 const CompetitveTeam = () => {
   return (
