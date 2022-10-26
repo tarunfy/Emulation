@@ -13,7 +13,7 @@ const Team = () => {
           “Meet the team of Emulation”
         </h1>
 
-        <ul className="grid w-full sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 text-center text-white/90 font-normal  sm:text-sm md:text-base lg:text-xl text-2xl flex-wrap">
+        <ul className="grid w-full sm:grid-cols-4 grid-cols-2 sm:gap-4 gap-2 text-center text-white/90 font-normal sm:text-sm md:text-base lg:text-lg text-2xl">
           <li
             className={`${
               team === "core" &&
