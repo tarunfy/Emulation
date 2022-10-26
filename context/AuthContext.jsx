@@ -1,20 +1,19 @@
 import { createContext, useState, useEffect } from "react";
 import { auth } from "../config/firebase";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 export const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
       if (user) {
         setUser({
-          name: user.displayName,
           email: user.email,
-          photo: user.photoURL,
         });
       } else {
         setUser(null);
@@ -22,13 +21,13 @@ export const AuthProvider = ({ children }) => {
     });
   }, []);
 
-  const googleAuth = async () => {
+  const login = async (email, password) => {
     setIsLoading(true);
-    let provider = new GoogleAuthProvider();
+    setError("");
     try {
-      await signInWithPopup(auth, provider);
+      await signInWithEmailAndPassword(auth, email, password);
     } catch (err) {
-      console.log(err.message);
+      setError("Incorrect email or password");
     }
 
     setIsLoading(false);
@@ -39,7 +38,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ user, googleAuth, isLoading, logout }}>
+    <AuthContext.Provider value={{ user, login, isLoading, logout, error }}>
       {children}
     </AuthContext.Provider>
   );
