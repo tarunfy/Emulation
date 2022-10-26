@@ -49,12 +49,21 @@ export const data = {
       avatar: "/images/Aman.jpeg",
       description:
         "OE @Infosys || Open Source contributor @LibreOffice || Web Explorer",
-      role: "Club Social Media and Teach Lead",
+      role: "Club Social Media and Tech Lead",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
       githubUrl: "https://www.github.com/amanj752",
     },
   ],
   web: [
+    {
+      name: "Tarun Sharma",
+      avatar: "/images/Tarun.jpeg",
+      description:
+        "MERN Stack Developer - React.Js | Node.Js | Express | MongoDB | Firebase",
+      role: "Lead",
+      linkedinUrl: "https://www.linkedin.com/in/tarunfy",
+      githubUrl: "https://github.com/tarunfy",
+    },
     {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
@@ -100,15 +109,6 @@ export const data = {
       githubUrl: "https://github.com/Shreyansh2407",
     },
     {
-      name: "Tarun Sharma",
-      avatar: "/images/Tarun.jpeg",
-      description:
-        "MERN Stack Developer - React.Js | Node.Js | Express | MongoDB | Firebase",
-      role: "Member",
-      linkedinUrl: "https://www.linkedin.com/in/tarunfy",
-      githubUrl: "https://github.com/tarunfy",
-    },
-    {
       name: "Tushar Sharma",
       avatar: "/images/Tushar.jpeg",
       description:
@@ -140,7 +140,7 @@ export const data = {
       name: "Mohammad Aadil",
       avatar: "/images/Adil.jpeg",
       description:
-        "Persuing B.Tech. (CSE), Interested in Android development and currently learning Data Structure With C",
+        "Persuing B.Tech (CSE) || Interested In Android Development || Learning DSA",
       role: "Member",
       linkedinUrl:
         "https://www.linkedin.com/in/mohammad-aadil-ansari-68026a234",
