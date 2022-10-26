@@ -21,7 +21,7 @@ const Header = () => {
           </a>
           <a
             href="mailto:emualtionclub@gmail.com"
-            className="bg-white text-gray-900 shadow-custom sm:text-lg rounded-lg sm:px-16 sm:py-2 text-2xl py-4 px-14 border-0 font-medium transition duration-300 hover:shadow-custom2 hover:shadow-white/40"
+            className="bg-white text-gray-900 shadow-custom shadow-white/40 sm:text-lg rounded-lg sm:px-16 sm:py-2 text-2xl py-4 px-14 border-0 font-medium transition duration-300 hover:shadow-custom2 hover:shadow-white/40"
           >
             Contact us
           </a>
