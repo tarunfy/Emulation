@@ -9,17 +9,17 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <AiOutlineGithub className="!h-8 !w-8 !text-white" />
+          <AiOutlineGithub className="sm:!h-8 sm:!w-8 !h-10 !w-10 !text-white" />
         </a>
         <a
           href="instagram.com/emulation_accurate/"
           target="_blank"
           rel="noreferrer"
         >
-          <AiOutlineInstagram className="!h-8 !w-8 !text-white" />
+          <AiOutlineInstagram className="sm:!h-8 sm:!w-8 !h-10 !w-10 !text-white" />
         </a>
       </div>
-      <p className="text-white/70 text-center">
+      <p className="text-white/70 text-center text-lg sm:text-base">
         Made with ❤️ by{" "}
         <span className="underline text-white">
           <a
