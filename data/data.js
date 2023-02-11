@@ -10,14 +10,6 @@ export const data = {
       githubUrl: "https://github.com/lieftsatyamShrivastava",
     },
     {
-      name: "Shreyansh Singh",
-      avatar: "/images/Shreyansh.jpeg",
-      description: "Learning Web Development, MERN Stack developer.",
-      role: "Club Head || Promotional Lead",
-      linkedinUrl: "https://www.linkedin.com/in/shreyansh-kumar-697a96244",
-      githubUrl: "https://www.github.com/Shreyansh2407",
-    },
-    {
       name: "Anurag Verma",
       avatar: "/images/AnuragV.jpeg",
       description:
@@ -99,14 +91,6 @@ export const data = {
       role: "Member",
       linkedinUrl: "https://www.linkedin.com/in/amanj752",
       githubUrl: "https://www.github.com/amanj752",
-    },
-    {
-      name: "Shreyansh Singh",
-      avatar: "/images/Shreyansh.jpeg",
-      description: "Learning Web Development, MERN Stack developer.",
-      role: "Member",
-      linkedinUrl: "https://www.linkedin.com/in/shreyansh",
-      githubUrl: "https://github.com/Shreyansh2407",
     },
     {
       name: "Tushar Sharma",
